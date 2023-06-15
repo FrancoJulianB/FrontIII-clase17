@@ -1,9 +1,12 @@
 import React from 'react'
+import { routes } from '../utils/routes'
+import { Link, useNavigate } from 'react-router-dom'
 
 const Navbar = () => {
   return (
     <nav>
-        {/* Aqui deberan agregar los Links */}
+        <Link to={routes.home}><h4 className='link'>Home</h4></Link>
+        
     </nav>
   )
 }
